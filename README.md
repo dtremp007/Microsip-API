@@ -1,6 +1,6 @@
 # Microsip API
 This is an endpoint server for Microsip. It has direct access to the Microsip database (FirebirdSQL).
----
+
 ## Setup
 ### Run
 ```
