@@ -8,7 +8,7 @@ def selectBySku(key):
     FROM DOCTOS_IN_DET r
     INNER JOIN ARTICULOS a ON r.ARTICULO_ID = a.ARTICULO_ID
     Group by r.ARTICULO_ID, a.NOMBRE
-    Where r.ARTICULO_ID={sku}
+    Where r.CLAVE_ARTICULO='{sku}'
     """.format(**args)
 
     return query
