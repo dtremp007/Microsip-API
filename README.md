@@ -4,7 +4,7 @@ This is an endpoint server for Microsip. It has direct access to the Microsip da
 ## Setup
 ### Run
 ```
-$ python -m uvicorn main:app --host '192.168.8.17' --port 4200 --reload
+$ python -m uvicorn main:app --host '<IP>' --port 4200 --reload
 ```
 ### Make a request
 ```
